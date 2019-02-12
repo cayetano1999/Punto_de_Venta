@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Sistema de Facturacion.exe" version="1.0.0.0" publicKeyToken="45f6c955afd97f8a" language="es-DO" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="logoferreteria (1).ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Sistema de Facturacion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Sistema de Facturacion.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la 
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.Common" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.DataVisualization" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.ProcessingObjectModel" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.WinForms" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.SqlServer.Types" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="es\Microsoft.ReportViewer.WinForms.resources.dll" size="84920">
+      <assemblyIdentity name="Microsoft.ReportViewer.WinForms.resources" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="es" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>i59/Gkx1AnbQyHfmVUtdzWPw1Js0mwDhIAp6ygatgBk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll" size="65128">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs.resources" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="es" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>QjXo/oxJjWPp0n/EL8Jjl6a068+OXkSoZPUSenNf+Hk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sistema de Facturacion.exe" size="4131840">
+      <assemblyIdentity name="Sistema de Facturacion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+WBqVujOnGA3TeBToYiZyMu95gCX/2wb4VPoU/6U/d8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="logoferreteria (1).ico" size="231326">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZCJVvgR/3IBIzmdyOwl4jX21ahFHC/EuJ47dS3W4rW0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="logoferreteria.ico" size="231326">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZCJVvgR/3IBIzmdyOwl4jX21ahFHC/EuJ47dS3W4rW0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\eliminar.png" size="582">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BqmHqqO0ZKYI4QZCBWP5wSMMriu33kcl+D6CBtl7/8w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\trash.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VtrhaNz3FiPRQO3+urmFcDVJhkzS2DCLSCuBVdzAP/M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sistema de Facturacion.exe.config" size="876">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rZ093TWZ3bDmx5cgWAxk4tuD67BtcjRwZxb1pHrdznM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="trash.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VtrhaNz3FiPRQO3+urmFcDVJhkzS2DCLSCuBVdzAP/M=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=WINDOWS-N0UF27K\Josue Cayetano" issuerKeyHash="8ceea960cd872a48a3fe43236dba5e7c2cbfe062" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>fk7Deo1PIqhpa40Gsdl4xabJRgKvS3uV0W7N3p3XMnc=</DigestValue></Reference></SignedInfo><SignatureValue>S77TTnIesIN/GocmINCAyuCtv5MywLiQBu861X1VBUtPpltOIPNVIgKwF/chNKIvNubh32It0dTr0c/CtKpK1nObXP6SZgaDc6whVCf7q4JF3UapNLLWSz0ZfkltYraYKKjt4uAHtZlku0o9YaLtB3MLrJlJjmcgxTavK3Cji1g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yOwVMDmCDPGWLAt28Rwga0ltU1aC3g1beJddxdagVeoZ0Mv7cUPTVQxADTpWxDX4LAxuVHcuaL2xC7PZLsJWcQ9YZJB8T9SgmRgBiehLQ60aZzwH2PEEYXCC4UM0TVl+JzvJKMcgzp6LqDfiK08YYG4JxFAy7kyCfBCLb2i5/JE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7732d79ddecd6ed1957b4baf0246c9a6c578d9b1068d6b69a8224f8d7ac34e7e" Description="" Url=""><as:assemblyIdentity name="Sistema de Facturacion.exe" version="1.0.0.0" publicKeyToken="45f6c955afd97f8a" language="es-DO" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WINDOWS-N0UF27K\Josue Cayetano</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wErbQIQfgeZ7G7OPMhV41sSvvTwQBDqv4LszE7Mrt+g=</DigestValue></Reference></SignedInfo><SignatureValue>TqKkBO+RzqlkcGVzxyZBV2x82TDuJ1YD383VSzp8mY2qy4jznK4W2X73rIb+FlUXwlXD1f1FY+Z5flrzFJvSlq47794cAf0VOPgWccfeuFIzT2Tg2cL5dH/0wMs/Twp97Mz+lFQyVeR1hGNbB8pDCsrQySUiiWA7Mv8dhhbui90=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yOwVMDmCDPGWLAt28Rwga0ltU1aC3g1beJddxdagVeoZ0Mv7cUPTVQxADTpWxDX4LAxuVHcuaL2xC7PZLsJWcQ9YZJB8T9SgmRgBiehLQ60aZzwH2PEEYXCC4UM0TVl+JzvJKMcgzp6LqDfiK08YYG4JxFAy7kyCfBCLb2i5/JE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICETCCAXqgAwIBAgIQSdFsDI83kq1NE0tULnC0cTANBgkqhkiG9w0BAQsFADBHMUUwQwYDVQQDHjwAVwBJAE4ARABPAFcAUwAtAE4AMABVAEYAMgA3AEsAXABKAG8AcwB1AGUAIABDAGEAeQBlAHQAYQBuAG8wHhcNMTgxMDI2MDc1MzI2WhcNMTkxMDI2MTM1MzI2WjBHMUUwQwYDVQQDHjwAVwBJAE4ARABPAFcAUwAtAE4AMABVAEYAMgA3AEsAXABKAG8AcwB1AGUAIABDAGEAeQBlAHQAYQBuAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMjsFTA5ggzxliwLdvEcIGtJbVNWgt4NW3iXXcXWoFXqGdDL+3FD01UMQA06VsQ1+CwMblR3Lmi9sQuz2S7CVnEPWGSQfE/UoJkYAYnoS0OtGmc8B9jxBGFwguFDNE1Zfic7ySjHIM6ei6g34itPGGBuCcRQMu5MgnwQi29oufyRAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAW7FXtIq2Nj5SSpqEdI170aJBOQLWHyiuEX7yXe1S4vveNm18fYYAf/DbzmObyemOhOEL401zQ4Ydurd3S/pC0IYujBxA3ASnQ7cYW0MacT98eVzsyZhA/7aZp/E/oPxKhGWIs1wQ49bnxF3wxKi7jwjBpTzjCaMSyMHJjM25CM8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

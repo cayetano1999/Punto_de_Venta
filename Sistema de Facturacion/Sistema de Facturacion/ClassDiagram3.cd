@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sistema_de_Facturacion.Clientes">
+    <Position X="4.75" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAGAAAAAAACAAgAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Clientes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sistema_de_Facturacion.Conexion">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBgSEgEAAAAGCRsRAAJAFCAkEBBAQIEQEyMKDMAEIA=</HashCode>
+      <FileName>Conexion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Facturas" />
+      <Property Name="Producto" />
+      <Property Name="DetalleFactura" />
+      <Property Name="LoadDataConfig" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sistema_de_Facturacion.Configuracion">
+    <Position X="11.5" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IAAgAAAAACAAAIAAAAAAgAgAAAAAAAAAAAgAIgAAAAg=</HashCode>
+      <FileName>Configuracion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LoadDataConfig" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sistema_de_Facturacion.Facturas">
+    <Position X="2.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAIAAAQEAAAAIAABAAAAAAAA=</HashCode>
+      <FileName>Facturas.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Clientes" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sistema_de_Facturacion.LoadData">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAgEAAAAAAgAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>LoadData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sistema_de_Facturacion.LoadDataConfig">
+    <Position X="11.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAgAAAAACAAAIAAAAAAgAgAAAAAAAAAAAgAAgAAAAg=</HashCode>
+      <FileName>LoadDataConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sistema_de_Facturacion.Producto">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAhAAAAAAAAAAEAgAAAAAARAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Producto.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Facturas" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sistema_de_Facturacion.Proveedores">
+    <Position X="5.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAgAAAAACAAAAAgQCAAAAAAAAAAAAAAAAAAIgAAAAA=</HashCode>
+      <FileName>Proveedores.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Producto" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sistema_de_Facturacion.DetalleFactura">
+    <Position X="8.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAEAAAAAAAAAQAAAABAQAAEAQAAAAAAAAAEAAAA=</HashCode>
+      <FileName>DetalleFactura.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Facturas" />
+      <Property Name="Producto" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sistema_de_Facturacion.Usuarios">
+    <Position X="9.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAQAEMAAACAAAAAAACAAAAAAAAEAAEAAAA=</HashCode>
+      <FileName>Usuarios.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LoadData" />
+      <Property Name="Facturas" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

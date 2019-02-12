@@ -1,0 +1,23 @@
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\bin\Release\Sistema de Facturacion.exe.config
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\bin\Release\Sistema de Facturacion.exe
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\bin\Release\Sistema de Facturacion.pdb
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\obj\Release\Sistema de Facturacion.csprojResolveAssemblyReference.cache
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\obj\Release\Sistema_de_Facturacion.Form1.resources
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\obj\Release\Sistema_de_Facturacion.frmAgregarproveedor.resources
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\obj\Release\Sistema_de_Facturacion.frmClientesaction.resources
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\obj\Release\Sistema_de_Facturacion.frmEditarfactura.resources
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\obj\Release\Sistema_de_Facturacion.frmFacturar.resources
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\obj\Release\Sistema_de_Facturacion.frmImprimirfactura.resources
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\obj\Release\Sistema_de_Facturacion.frmLogin.resources
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\obj\Release\Sistema_de_Facturacion.frmMensajes.resources
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\obj\Release\Sistema_de_Facturacion.frmMenu.resources
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\obj\Release\Sistema_de_Facturacion.frmNuevafactura.resources
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\obj\Release\Sistema_de_Facturacion.frmProductosactions.resources
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\obj\Release\Sistema_de_Facturacion.frmReportedefactura.resources
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\obj\Release\Sistema_de_Facturacion.frmUsuario.resources
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\obj\Release\Sistema_de_Facturacion.Properties.Resources.resources
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\obj\Release\Sistema de Facturacion.csproj.GenerateResource.Cache
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\obj\Release\RdlCompile.cache
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\obj\Release\RdlCompile.compiled
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\obj\Release\Sistema de Facturacion.exe
+C:\Users\Josue Cayetano\Desktop\Sistema de Facturacion Full\Sistema de Facturacion\Sistema de Facturacion\obj\Release\Sistema de Facturacion.pdb
